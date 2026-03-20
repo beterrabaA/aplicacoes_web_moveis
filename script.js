@@ -52,16 +52,11 @@ function handleClickEvent(event) {
   loadContent(fileMap[targetHash]);
 }
 
-function showAlert() {
-  alert("Hello world! This is a simple alert.");
-}
-
 function sendForm(event) {
   event.preventDefault();
   const formElement = document.getElementById("contact-form");
   const formData = new FormData(formElement);
   const data = Object.fromEntries(formData.entries());
-  console.log("Form data collected:", data);
 
   if (data.fullname === "" || data.email === "" || data.subject === "") {
     alert("Por favor, preencha todos os campos antes de enviar o formulário.");
