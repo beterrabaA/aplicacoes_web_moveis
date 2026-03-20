@@ -1,0 +1,46 @@
+<section id="portfolio-section">
+  <div id="portfolio-container">
+    <h1>Contato</h1>
+    <p>
+      Se você deseja entrar em contato comigo, por favor, preencha o formulário
+      abaixo ou envie um e-mail para
+      <a href="mailto:seu.email@exemplo.com">seu.email@exemplo.com</a>. Estou
+      aberto a oportunidades de trabalho, colaborações em projetos ou apenas
+      para conversar sobre tecnologia e desenvolvimento de software. Fique à
+      vontade para me enviar uma mensagem, e eu responderei o mais breve
+      possível!
+    </p>
+    <div class="contact-container">
+      <form action="" id="contact-form" onsubmit="sendForm(event)">
+        <label for="fullname">Nome completo</label>
+        <input
+          id="fullname"
+          name="fullname"
+          placeholder="Nome e sobrenome.."
+          required
+          type="text"
+        />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          placeholder="Seu melhor email.."
+          required
+          type="email"
+        />
+
+        <label for="subject">Mensagem</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Escreva sua mensagem aqui.."
+          style="height:150px"
+        ></textarea>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    <a href="home.html" class="btn-home">Voltar para Home</a>
+  </div>
+</section>
