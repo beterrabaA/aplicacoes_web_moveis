@@ -89,14 +89,6 @@ ul {
   margin-top: 0;
 }
 
-/* -------------------------------------- */
-
-/*
-Source - https://stackoverflow.com/a/46260247
-Posted by Andy Hoffman, modified by community. See post 'Timeline' for change history
-Retrieved 2026-03-18, License - CC BY-SA 4.0
-*/
-
 .grid {
   display: grid;
   gap: 1px;
@@ -123,8 +115,6 @@ div > div {
   height: 100%;
   object-fit: cover;
 }
-
-/* -------------------------------------- */
 
 .card-title {
   font-weight: bold;

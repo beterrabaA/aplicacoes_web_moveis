@@ -30,7 +30,7 @@ function loadContent(file) {
 }
 
 function handleClickEvent(event) {
-  const anchor = event.target.closest("a"); // ✅ sempre pega o <a>, independente de onde clicou
+  const anchor = event.target.closest("a");
   if (!anchor) return;
 
   const targetHash = anchor.hash;
